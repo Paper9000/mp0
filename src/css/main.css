@@ -1,1 +1,53 @@
 /* Your CSS here. */
+.fact {
+    color: red;
+    font-weight: bold;
+}
+
+.assets {
+    height: 150px;
+    width : 150px;
+    border : 2px solid black;
+    border-radius: 10%;
+}
+a {
+    color : darkblue;
+    font-size: 15px;
+}
+.color-card {
+    background-color: darkgreen;
+    height: 450px;
+    width: 800px;
+    border : 2px solid black;
+    border-radius: 10%;
+    display : flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+#button-area {
+    margin-top: 20px;
+    text-align: center;
+}
+button.trivia {
+    background-color : darkgreen;
+    color : darkblue;
+    margin-top: 5px;
+}
+.over {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+/*#button-area {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}*/
+
